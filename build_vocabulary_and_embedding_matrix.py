@@ -85,7 +85,7 @@ def main():
 	vocabulary, inverse_vocabulary, embedding_matrix, _ = \
 		build_vocabulary_and_embedding_matrix(train_df['sentence_cleaned'], embeddings_index)
 	
-	# Pickle resutls
+	# Pickle the trained model 
 	if not os.path.isdir('pickles'):
 		os.mkdir('pickles')
 

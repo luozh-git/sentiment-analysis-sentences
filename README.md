@@ -1,4 +1,3 @@
-Answer from Luo
 =======================
 This is a typical sentiment classification problem for sentences. I elected to use a simple LSTM network, 
 pretrained word embeddings. There is no manual feature engineering involved.
@@ -31,7 +30,7 @@ The deliverables mainly consists of the 3 scripts below
 
 ## Results 
 The metrics are saved in ./output.txt
-The trained model, vocabulary, and cleaned data are save in the ./pickles folder.
+The cleaned data, trained model, vocabulary, and embedding matrix are save in the ./pickles folder.
 
 ## Preprocessing and model
 Minimal preprocessing is done. English contractions, which negates the meaning of a sentence, are expanded.

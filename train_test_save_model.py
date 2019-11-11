@@ -106,7 +106,7 @@ def main():
 	output_file.write(classification_report(y_test, y_pred_bool))
 	output_file.close()
 
-	# Pickle resutls
+	# Pickle the trained model 
 	if not os.path.isdir('pickles'):
 		os.mkdir('pickles')
 
