@@ -3,8 +3,8 @@ This is a typical sentiment classification problem for sentences. I elected to u
 pretrained word embeddings. There is no manual feature engineering involved.
 
 ## How to run 
-Start a new virtual env, and run pip install -r requirements.txt
-The run.sh sticks the python scripts together. It expects the files below in the same dir  
+Start a new virtual env, and run pip install -r requirements.txt.
+The run.sh sticks the python scripts together, and it expects the files below in the same dir  
 run.sh  
 dev.json  
 test.json  
