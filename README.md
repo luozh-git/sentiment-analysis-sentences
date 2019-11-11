@@ -5,7 +5,7 @@ pretrained word embeddings. There is no manual feature engineering involved.
 ## How to run 
 Start a new virtual env, and run pip install -r requirements.txt
 The run.sh sticks the python scripts together. It expects the files below in the same dir 
-run.sh  
+run.sh   
 dev.json  
 test.json  
 train.json  
@@ -39,7 +39,7 @@ with the pickled vocabulary, embedding matrix and a few lines of codes for prepr
 tokenization, padding and prediction from the 3 scritps above.
 
 ## Libraries used
-$ cat requirements.txt 
+$ cat requirements.txt  
 pandas==0.24.2  
 scikit-learn==0.21.2  
 Keras==2.2.5  
